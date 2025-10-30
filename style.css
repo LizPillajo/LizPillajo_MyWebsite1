@@ -53,10 +53,11 @@ header h1 {
 }
 
 .superior-card img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
     margin-right: 25px;
+    object-fit: cover;
 }
 
 
@@ -89,6 +90,15 @@ header h1 {
     padding: 8px 20px;
     border-radius: 6px;
     cursor: pointer;
+}
+
+input[type="text"]{
+    padding: 8 px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
 }
 
 .table {

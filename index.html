@@ -3,96 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Test Website</title>
+    <title>Disney characters</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1> Test Website </h1>
+        <h1> Disney characters </h1>
     </header>
 
     <main>
         <section class="cards">
 
-            <div class="card">
+            <div class="card" id="card1">
                 <div class="superior-card">
-                    <img src="img1.jpg" alt="image1">
-                    <div class="content">
-                        <h2>Card 1</h2>
-                        <p> 
-                            This is an example paragraph for card one.
-
-                        </p>
+                    <img id="character-image" src="img1.jpg" alt="image1">
+                    <div class="content">                        
+                        <h2 id="character-name">Search Character</h2><br>
+                        <p>Write the name of the Disney character. </p>
+                        <input type="text" id="character-input" placeholder="Ex: Mickey Mouse">
                     </div>
                 </div>
                 <div class="inferior-card">
-                    <p>
-                        This is an example paragraph for card one.
-                        This is an example paragraph for card one.
-                        This is an example paragraph for card one.
-                        This is an example paragraph for card one.
-                    </p>
-                    <button> Save </button>
+                    <p>Click the button to load the Disney character.</p>
+                    <button id="search-character"> Search </button>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" id="card2">
                 <div class="superior-card">
-                    <img src="img2.jpg" alt="image2">
+                    <img id="character-image1" src="placeholder.jpg" alt="image2">
                     <div class="content">
-                        <h2>Card 2</h2>
-                        <p>
-                            This is an example paragraph for card two.
-                        </p>
+                        <h2> Details </h2>
+                        <p id="character-films"> Films: </p>
+                        <p id="character-shows"> Series: </p>
                     </div>
                 </div>
                 <div class="inferior-card">
-                    <p>
-                        This is an example paragraph for card two.
-                        This is an example paragraph for card two.
-                        This is an example paragraph for card two.
-                        This is an example paragraph for card two.
-                    </p>
-                    <button> Save </button>
+                    <p>Additional information about the selected character.</p>
+                    <button id="clear-info"> Clean </button>
                 </div>
             </div>
 
         </section>
 
         <section class="table">
-            <h2> Example Table</h2>
+            <h2> List of characters</h2>
 
-            <table>
+            <table id="characters-table">
                 <thead>
                     <tr>
                         <th>#</th>
                         <th>Name</th>
-                        <th>Description</th>
+                        <th>Movies</th>
                     </tr>
                 </thead>
 
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Element 1</td>
-                        <td>Description of element 1</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Element 2</td>
-                        <td>Description of element 2</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Element 3</td>
-                        <td>Description of element 3</td>
-                    </tr>
+                <tbody>        
                 </tbody>
             </table>
 
         </section>
     </main>
+
+    <script src="script.js"></script>
 
 </body>
 
