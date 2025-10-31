@@ -4,6 +4,9 @@ A simple web application that allows users to search for Disney characters and d
 
 The project consists of a frontend (HTML, CSS, JS) and a backend with Node.js (Express) that connects to the public Disney API.
 
+
+
+
 📌 Features
 
 - 🔍 Search for Disney characters by name.
@@ -11,6 +14,9 @@ The project consists of a frontend (HTML, CSS, JS) and a backend with Node.js (E
 - 🧾 Table showing search history.
 - 🌐 Connection to an external API via a proprietary backend in Express.
 - 🧹 Function to easily clear results.
+
+
+
 
 🧩 Project Structure
 
@@ -34,6 +40,9 @@ LIZPILLAJO_MYWEBSITE1/
 
 └── README.md
 
+
+
+
 ⚙️ Installation and execution
 
 1️⃣ Clone the repository
@@ -53,6 +62,9 @@ node server.js
 The server will be available at:
 👉 http://localhost:3000
 
+
+
+
 💻 Usage
 1. Open the index.html file in your browser.
 2. Enter the name of a character (for example: Mickey Mouse).
@@ -60,6 +72,9 @@ The server will be available at:
 4. You will see their image and the associated movies and series.
 5. The results will be automatically saved in the table below.
 6. Use the Clean button to clear the data.
+
+
+
 
 🧠 Technologies used
 
@@ -76,6 +91,9 @@ Backend:
 
 API:
 https://disneyapi.dev/
+
+
+
 
 🧑‍💻 Author
 
