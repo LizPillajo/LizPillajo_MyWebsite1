@@ -18,11 +18,11 @@ LIZPILLAJO_MYWEBSITE1/
 
 ├── backend/
 
-│   ├── package-lock.json
+       ├── package-lock.json
 
-│   ├── package.json
+       ├── package.json
 
-│   ├── server.js
+       ├── server.js
 
 ├── img1.jpg
 
