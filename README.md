@@ -1,15 +1,18 @@
 🏰 Disney Characters
+
 A simple web application that allows users to search for Disney characters and display information about their movies and series.
 The project consists of a frontend (HTML, CSS, JS) and a backend with Node.js (Express) that connects to the public Disney API.
 
 📌 Features
-    - 🔍 Search for Disney characters by name.
-    - 🖼️ View images, movies, and series featuring the character.
-    - 🧾 Table showing search history.
-    - 🌐 Connection to an external API via a proprietary backend in Express.
-    - 🧹 Function to easily clear results.
+
+- 🔍 Search for Disney characters by name.
+- 🖼️ View images, movies, and series featuring the character.
+- 🧾 Table showing search history.
+- 🌐 Connection to an external API via a proprietary backend in Express.
+- 🧹 Function to easily clear results.
 
 🧩 Project Structure
+
 LIZPILLAJO_MYWEBSITE1/
 │
 ├── backend/
@@ -24,15 +27,16 @@ LIZPILLAJO_MYWEBSITE1/
 └── README.md
 
 ⚙️ Installation and execution
+
 1️⃣ Clone the repository
-    git clone https://github.com/LizPillajo/LizPillajo_MyWebsite1.git
-    cd backend
+git clone https://github.com/LizPillajo/LizPillajo_MyWebsite1.git
+cd backend
 
 2️⃣ Install dependencies
-    npm install express node-fetch cors
+npm install express node-fetch cors
 
 3️⃣ Run the backend server
-    node server.js
+node server.js
 
 The server will be available at:
 👉 http://localhost:3000
@@ -47,16 +51,18 @@ The server will be available at:
 
 🧠 Technologies used
 Frontend:
-    - HTML5
-    - CSS3
-    - JavaScript (Fetch API)
+- HTML5
+- CSS3
+- JavaScript (Fetch API)
+
 Backend:
-    - Node.js
-    - Express.js
-    - node-fetch
-    - CORS
+- Node.js
+- Express.js
+- node-fetch
+- CORS
+
 API:
-    https://disneyapi.dev/
+https://disneyapi.dev/
 
 🧑‍💻 Author
 Liz Daisy Pillajo Cabrera
