@@ -1,6 +1,7 @@
 🏰 Disney Characters
 
 A simple web application that allows users to search for Disney characters and display information about their movies and series.
+
 The project consists of a frontend (HTML, CSS, JS) and a backend with Node.js (Express) that connects to the public Disney API.
 
 📌 Features
@@ -14,28 +15,39 @@ The project consists of a frontend (HTML, CSS, JS) and a backend with Node.js (E
 🧩 Project Structure
 
 LIZPILLAJO_MYWEBSITE1/
-│
+
 ├── backend/
+
 │   ├── package-lock.json
+
 │   ├── package.json
+
 │   ├── server.js
-│
+
 ├── img1.jpg
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 
 ⚙️ Installation and execution
 
 1️⃣ Clone the repository
+
 git clone https://github.com/LizPillajo/LizPillajo_MyWebsite1.git
+
 cd backend
 
 2️⃣ Install dependencies
+
 npm install express node-fetch cors
 
 3️⃣ Run the backend server
+
 node server.js
 
 The server will be available at:
@@ -50,6 +62,7 @@ The server will be available at:
 6. Use the Clean button to clear the data.
 
 🧠 Technologies used
+
 Frontend:
 - HTML5
 - CSS3
@@ -65,6 +78,9 @@ API:
 https://disneyapi.dev/
 
 🧑‍💻 Author
+
 Liz Daisy Pillajo Cabrera
+
 Information Systems Engineering Student
+
 ✨ Academic project on practice with APIs and Express
