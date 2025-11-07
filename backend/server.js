@@ -35,5 +35,4 @@ app.get("/api/character", async (req, res) => {
   }
 });
 
-// Exporta la app para que Vercel la maneje como funciÃ³n serverless
 export default app;
