@@ -7,7 +7,7 @@ async function loadCharacter() {
     }
 
     try {
-        const response = await fetch(`http://localhost:3000/api/character?name=${encodeURIComponent(nameC)}`);
+        const response = await fetch(`http://18.211.252.140:3000/api/character?name=${encodeURIComponent(nameC)}`);
         const data = await response.json();
 
         if (!data.data || data.data.length === 0) {
